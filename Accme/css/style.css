@@ -27,7 +27,7 @@ ul{
     color: white;
 }
 
-.dark{
+ #sidebar .dark{
     padding: 15px;
     background: #35424a;
     color:#fff;
