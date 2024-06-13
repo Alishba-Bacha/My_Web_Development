@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Alishba | Contact form</title>
+</head>
+<body>
+  <header>
+    <div class="head-contact">
+      <h1 >Contact Us</h1>
+      <p>This Contact Us page is for a marketing agency 
+      that works directly with businesses. Since it knows 
+      its audience, Brandaffair encourages visitors to "have 
+      a talk" one-on-one rather than providing a one-way 
+      communication channel via support resources.</p>
+    </div>
+  </header>
+
+  <section id = "Detailofmember">
+    <div class = "container">
+      <div class="f1">
+        <label>First Name*</label>
+        <input type="text" name = "first-name" placeholder="Enter First Name" required>
+      </div>
+      
+      <div class="f2">
+        <label>Last Name*</label>
+        <input type="text" name = "LastName" placeholder="Enter Last Name" required>
+      </div>
+
+      <div class="e1">
+        <label>Email*</label>
+        <input type="email" name = "email" placeholder="Enter a valid email address" required>
+      </div>
+
+      <div class="q1">
+        <label>Query Type*</label>
+        <select name = "message" class="Query" required>
+            <option value = "1">General Enquiry</option>
+            <option value = "2">Support Request</option>
+        </select>
+        <input type="message" placeholder="Message" required></textarea>
+      </div>
+
+      <div class="consent">
+        <input type="checkbox" class="checkbox" required>
+        <p>I consent to being contacted by the team
+          To submit this form, please consent to being contacted.*</p>
+      </div>
+
+      <div class="button">
+        <input type="submit" name="submit" value="Submit">
+      </div>
+    </div>
+  </section>
+
+  <footer class="attribution">
+    <div class="c1">Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.</div> 
+    <div class="c2">Coded by <a href="#">Alishba Bacha</a>.</div>
+  </footer>
+</body>
+</html>
