@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <!-- User Panel -->
+    <div class="container">
+        <div class="user-panel">
+            <h2>User Panel</h2>
+            <form id="register-form">
+                <h3>Register</h3>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+
+            <form id="login-form">
+                <h3>Login</h3>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <div class="user-actions">
+                <button id="mark-attendance">Mark Attendance</button>
+                <button id="mark-leave">Mark Leave</button>
+                <button id="view-attendance">View Attendance</button>
+            </div>
+
+            <div class="edit-profile">
+                <h3>Edit Profile</h3>
+                <input type="file" accept="image/*">
+                <button type="submit">Update Profile Picture</button>
+            </div>
+        </div>
+
+        <!-- Admin Panel -->
+        <div class="admin-panel">
+            <h2>Admin Panel</h2>
+            <form id="admin-login-form">
+                <h3>Login</h3>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <div class="admin-actions">
+                <button id="view-records">View Records</button>
+                <button id="edit-attendance">Edit Attendance</button>
+                <button id="add-attendance">Add Attendance</button>
+                <button id="delete-attendance">Delete Attendance</button>
+                <button id="create-report">Create Report</button>
+                <button id="leave-approval">Leave Approval</button>
+            </div>
+
+            <div class="grading-system">
+                <h3>Grading System</h3>
+                <p>26 Days = A Grade</p>
+                <p>10 Days = D Grade</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
